@@ -1,12 +1,12 @@
+
 # Proxy Configuration
 PROXY_IPS = [
-  'xxxxxx', 'xxxxxx', 'xxxxxx', 'xxxxxx',
-  'xxxxxx', 'xxxxxx1', 'xxxxxx', 'xxxxxx',
-  'xxxxxx', 'xxxxxx'
+  'xxxx', 'xxxx', 'xxxx', 'xxxx',
+  'xxx'
 ]
 
-PROXY_USERNAME = "xxxxxx"
-PROXY_PASSWORD = "xxxxxx"
+PROXY_USERNAME = "xxxx"
+PROXY_PASSWORD = "xxxx"
 
 # Product Configuration
 PRODUCT_NAME = "NVIDIA RTX 5090"
@@ -14,15 +14,11 @@ BASE_URL = "https://api.store.nvidia.com/partner/v1/feinventory?status=1&skus={s
 SEARCH_API_URL = "https://api.nvidia.partners/edge/product/search?page=1&limit=12&locale=fi-fi&category=GPU"
 
 #Telegram Message
-BASE_MESSAGE = "RTX 5090FE te koop in {country}!\n\nMarketplace: https://marketplace.nvidia.com/{locale}/consumer/graphics-cards/"
+BASE_MESSAGE = "RTX 5090FE te koop in {country}!\n\n**Marketplace:** https://marketplace.nvidia.com/{locale}/consumer/graphics-cards/"
 
 # Locale Configuration
 LOCALES_COUNTRIES = {
-    "nl-nl": ("🇳🇱", "Nederland"),
-    "de-de": ("🇩🇪", "Duitsland"),
-    "da-dk": ("🇩🇰", "Denemarken"),
-    "da-at": ("🇦🇹", "Oostenrijk"),
-    "fi-fi": ("🇫🇮", "Finland")
+    "nl-nl": ("🇳🇱", "Nederland")
 }
 
 # Headers Configuration
